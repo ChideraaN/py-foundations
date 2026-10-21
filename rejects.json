@@ -1,0 +1,56 @@
+[
+  {
+    "report_id": "R-1025",
+    "colour": "",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": "18.0",
+    "failure_reason": "1 validation error for Bag\ncolour\n  Value error, Field is Empty [type=value_error, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "report_id": "R-1026",
+    "colour": "red",
+    "bag_form": "banana",
+    "shell": "",
+    "brand": "Tumi",
+    "weight_kg": "15.0",
+    "failure_reason": "1 validation error for Bag\nbag_form\n  Input should be 'suitcase', 'backpack' or 'duffel' [type=literal_error, input_value='banana', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error"
+  },
+  {
+    "report_id": "R-1027",
+    "colour": "blue",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": "400",
+    "failure_reason": "1 validation error for Bag\nweight_kg\n  Value error, Weight is negative or too large [type=value_error, input_value='400', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "report_id": "R-1028",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": "-3",
+    "failure_reason": "1 validation error for Bag\nweight_kg\n  Value error, Weight is negative or too large [type=value_error, input_value='-3', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "report_id": "R-1029",
+    "colour": "green",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": "heavy",
+    "failure_reason": "1 validation error for Bag\nweight_kg\n  Value error, could not convert string to float: 'heavy' [type=value_error, input_value='heavy', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  },
+  {
+    "report_id": "",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": "17.0",
+    "failure_reason": "1 validation error for Bag\nreport_id\n  Value error, Field is Empty [type=value_error, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  }
+]

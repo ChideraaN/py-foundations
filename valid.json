@@ -1,0 +1,4633 @@
+[
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+][
+  {
+    "report_id": "R-1001",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 18.5
+  },
+  {
+    "report_id": "R-1002",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Tumi",
+    "weight_kg": 12.0
+  },
+  {
+    "report_id": "R-1003",
+    "colour": "red",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Osprey",
+    "weight_kg": 8.2
+  },
+  {
+    "report_id": "R-1004",
+    "colour": "green",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Nike",
+    "weight_kg": 10.5
+  },
+  {
+    "report_id": "R-1005",
+    "colour": "grey",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 20.1
+  },
+  {
+    "report_id": "R-1006",
+    "colour": "blue",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 14.3
+  },
+  {
+    "report_id": "R-1007",
+    "colour": "black",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "The North Face",
+    "weight_kg": 7.9
+  },
+  {
+    "report_id": "R-1008",
+    "colour": "silver",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Rimowa",
+    "weight_kg": 22.4
+  },
+  {
+    "report_id": "R-1009",
+    "colour": "brown",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 15.0
+  },
+  {
+    "report_id": "R-1010",
+    "colour": "pink",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "American Tourister",
+    "weight_kg": 17.2
+  },
+  {
+    "report_id": "R-1011",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Delsey",
+    "weight_kg": 19.8
+  },
+  {
+    "report_id": "R-1012",
+    "colour": "orange",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 6.4
+  },
+  {
+    "report_id": "R-1013",
+    "colour": "purple",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Adidas",
+    "weight_kg": 9.1
+  },
+  {
+    "report_id": "R-1014",
+    "colour": "navy",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Antler",
+    "weight_kg": 16.7
+  },
+  {
+    "report_id": "R-1015",
+    "colour": "white",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 21.0
+  },
+  {
+    "report_id": "R-1016",
+    "colour": "yellow",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Fjallraven",
+    "weight_kg": 5.8
+  },
+  {
+    "report_id": "R-1017",
+    "colour": "black",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "",
+    "weight_kg": 11.3
+  },
+  {
+    "report_id": "R-1018",
+    "colour": "teal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Away",
+    "weight_kg": 18.9
+  },
+  {
+    "report_id": "R-1019",
+    "colour": "red",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "Briggs & Riley",
+    "weight_kg": 13.6
+  },
+  {
+    "report_id": "R-1020",
+    "colour": "beige",
+    "bag_form": "duffel",
+    "shell": "",
+    "brand": "Longchamp",
+    "weight_kg": 8.8
+  },
+  {
+    "report_id": "R-1021",
+    "colour": "charcoal",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Samsonite",
+    "weight_kg": 23.5
+  },
+  {
+    "report_id": "R-1022",
+    "colour": "olive",
+    "bag_form": "backpack",
+    "shell": "",
+    "brand": "Berghaus",
+    "weight_kg": 9.7
+  },
+  {
+    "report_id": "R-1023",
+    "colour": "maroon",
+    "bag_form": "suitcase",
+    "shell": "soft",
+    "brand": "",
+    "weight_kg": 15.4
+  },
+  {
+    "report_id": "R-1024",
+    "colour": "black",
+    "bag_form": "suitcase",
+    "shell": "hard",
+    "brand": "Tumi",
+    "weight_kg": null
+  }
+]
