@@ -5,7 +5,7 @@ class Bag(BaseModel):
     report_id: str
     colour: str
     bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Optional[str]
+    shell: Literal["hard", "soft"]
     brand: Optional[str]
     weight_kg: Optional[float]
 
@@ -22,6 +22,11 @@ class Bag(BaseModel):
         if str(value).strip() == "":
             return None
 
-        if(float(value) < 0 or float(value) > 32):
+        weight = float(value)
+
+        if math.isnan(weight):
+            raise ValueError("Weight is not a number")
+
+        if(weight < 0 or weight > 32):
             raise ValueError("Weight is negative or too large")
-        return value
+        return weight
