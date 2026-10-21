@@ -48,8 +48,7 @@ for x in range(len(rows)):
         invalid_bag_reports.append(rows[x])
 
 with open("valid.json", "w", encoding=encoding) as f:
-    for report in valid_bag_reports:
-       json.dump([report.model_dump() for report in valid_bag_reports], f, indent=2)
+    json.dump([report.model_dump() for report in valid_bag_reports], f, indent=2)
 
 with open("rejects.json", "w", encoding=encoding) as f:
-       json.dump(invalid_bag_reports, f, indent=2)
+    json.dump(invalid_bag_reports, f, indent=2)
