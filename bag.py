@@ -1,3 +1,4 @@
+import math
 from typing import Literal, Optional
 from pydantic import BaseModel, field_validator
 
