@@ -6,7 +6,7 @@ class Bag(BaseModel):
     report_id: str
     colour: str
     bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Literal["hard", "soft"]
+    shell: Literal["hard", "soft", ""]
     brand: Optional[str]
     weight_kg: Optional[float]
 
@@ -14,6 +14,7 @@ class Bag(BaseModel):
     @classmethod
     def is_empty(cls, value):
         if(len(value) < 1):
+            value = None
             raise ValueError("Field is Empty")
         return value
 
