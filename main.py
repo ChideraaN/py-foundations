@@ -1,41 +1,22 @@
 import csv
-from typing import Literal, Optional
-from pydantic.dataclasses import dataclass
-from pydantic import BaseModel, Field, field_validator
 import json
+from pathlib import Path
+from bag import Bag
 
-path = "py-foundations/bag_reports.csv"
-encoding = "utf-8"
 
-class Bag(BaseModel):
-    report_id: str
-    colour: str
-    bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Optional[str]
-    brand: Optional[str]
-    weight_kg: Optional[float]
+# Folder that contains this script, so paths work no matter where it is run from
+BASE_DIR = Path(__file__).parent
 
-    @field_validator("report_id", "colour", "bag_form", mode="before")
-    @classmethod
-    def is_empty(cls, value):
-        if(len(value) < 1):
-            raise ValueError("Field is Empty")
-        return value
-
-    @field_validator("weight_kg", mode="before")
-    @classmethod
-    def weight_is_not_too_large_or_negative(cls, value):
-        if str(value).strip() == "":
-            return None
-
-        if(float(value) < 0 or float(value) > 32):
-            raise ValueError("Weight is negative or too large")
-        return value
+# Input CSV and output JSON files all live next to main.py
+CSV_PATH = BASE_DIR / "bag_reports.csv"
+VALID_PATH = BASE_DIR / "valid.json"
+REJECTS_PATH = BASE_DIR / "rejects.json"
 
 valid_bag_reports = []
 invalid_bag_reports = []
 
-with open(path, "r", encoding=encoding) as file:
+# open() accepts a Path object directly
+with open(CSV_PATH, "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
     rows = list(reader)
 
@@ -49,14 +30,14 @@ def validate_bag_reports_csv():
             invalid_bag_reports.append(rows[x])
 
 def write_json(path, data):
-    with open(path, "w", encoding=encoding) as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
-def write_reports(valid, rejects):
-    write_json("valid.json", [report.model_dump() for report in valid])
-    write_json("rejects.json", rejects)
+def write_reports(valid_path, rejects_path ,valid, rejects):
+    write_json(valid_path, [report.model_dump() for report in valid])
+    write_json(rejects_path, rejects)
 
 
 validate_bag_reports_csv()
-write_reports(valid_bag_reports, invalid_bag_reports)
+write_reports(VALID_PATH, REJECTS_PATH, valid_bag_reports, invalid_bag_reports)
