@@ -19,7 +19,7 @@
     "report_id": "R-1003",
     "colour": "red",
     "bag_form": "backpack",
-    "shell": "",
+    "shell": null,
     "brand": "Osprey",
     "weight_kg": 8.2
   },
@@ -27,7 +27,7 @@
     "report_id": "R-1004",
     "colour": "green",
     "bag_form": "duffel",
-    "shell": "",
+    "shell": null,
     "brand": "Nike",
     "weight_kg": 10.5
   },
@@ -44,14 +44,14 @@
     "colour": "blue",
     "bag_form": "suitcase",
     "shell": "soft",
-    "brand": "",
+    "brand": null,
     "weight_kg": 14.3
   },
   {
     "report_id": "R-1007",
     "colour": "black",
     "bag_form": "backpack",
-    "shell": "",
+    "shell": null,
     "brand": "The North Face",
     "weight_kg": 7.9
   },
@@ -67,8 +67,8 @@
     "report_id": "R-1009",
     "colour": "brown",
     "bag_form": "duffel",
-    "shell": "",
-    "brand": "",
+    "shell": null,
+    "brand": null,
     "weight_kg": 15.0
   },
   {
@@ -91,15 +91,15 @@
     "report_id": "R-1012",
     "colour": "orange",
     "bag_form": "backpack",
-    "shell": "",
-    "brand": "",
+    "shell": null,
+    "brand": null,
     "weight_kg": 6.4
   },
   {
     "report_id": "R-1013",
     "colour": "purple",
     "bag_form": "duffel",
-    "shell": "",
+    "shell": null,
     "brand": "Adidas",
     "weight_kg": 9.1
   },
@@ -123,7 +123,7 @@
     "report_id": "R-1016",
     "colour": "yellow",
     "bag_form": "backpack",
-    "shell": "",
+    "shell": null,
     "brand": "Fjallraven",
     "weight_kg": 5.8
   },
@@ -131,8 +131,8 @@
     "report_id": "R-1017",
     "colour": "black",
     "bag_form": "duffel",
-    "shell": "",
-    "brand": "",
+    "shell": null,
+    "brand": null,
     "weight_kg": 11.3
   },
   {
@@ -155,7 +155,7 @@
     "report_id": "R-1020",
     "colour": "beige",
     "bag_form": "duffel",
-    "shell": "",
+    "shell": null,
     "brand": "Longchamp",
     "weight_kg": 8.8
   },
@@ -171,7 +171,7 @@
     "report_id": "R-1022",
     "colour": "olive",
     "bag_form": "backpack",
-    "shell": "",
+    "shell": null,
     "brand": "Berghaus",
     "weight_kg": 9.7
   },
@@ -180,7 +180,7 @@
     "colour": "maroon",
     "bag_form": "suitcase",
     "shell": "soft",
-    "brand": "",
+    "brand": null,
     "weight_kg": 15.4
   },
   {

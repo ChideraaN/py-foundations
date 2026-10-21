@@ -6,17 +6,25 @@ class Bag(BaseModel):
     report_id: str
     colour: str
     bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Literal["hard", "soft", ""]
+    shell: Optional[Literal["hard", "soft"]]
     brand: Optional[str]
     weight_kg: Optional[float]
 
     @field_validator("report_id", "colour", "bag_form", mode="before")
     @classmethod
     def is_empty(cls, value):
-        if(len(value) < 1):
-            value = None
+        # None and whitespace-only strings count as empty, not just ""
+        if value is None or (isinstance(value, str) and not value.strip()):
             raise ValueError("Field is Empty")
-        return value
+        return value.strip() if isinstance(value, str) else value
+
+    @field_validator("shell", "brand", mode="before")
+    @classmethod
+    def blank_to_none(cls, value):
+        # Optional fields: a blank cell means "no value", stored as None
+        if value is None or (isinstance(value, str) and not value.strip()):
+            return None
+        return value.strip() if isinstance(value, str) else value
 
     @field_validator("weight_kg", mode="before")
     @classmethod
