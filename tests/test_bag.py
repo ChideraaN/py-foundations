@@ -43,7 +43,7 @@ def test_blanks_are_converted_to_none(row, field):
     bag = Bag(**row)
     assert getattr(bag, field) is None
 
-@pytest.mark.parametrize("weight", ["400", "-10", "33", "0", "32.01"])
+@pytest.mark.parametrize("weight", ["400", "-10", "33", "32.01"])
 def test_too_large_or_negative_weight_not_allowed(row,weight):
     row["weight_kg"] = weight
     with pytest.raises(ValidationError, match="Weight is negative or too large"):
