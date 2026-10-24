@@ -1,7 +1,6 @@
 import csv
 import json
 from pathlib import Path
-
 from bag import Bag
 
 # Folder that contains this script, so paths work no matter where it is run from
@@ -13,11 +12,15 @@ VALID_PATH = BASE_DIR / "valid.json"
 REJECTS_PATH = BASE_DIR / "rejects.json"
 
 # open() accepts a Path object directly
-with open(CSV_PATH, "r", encoding="utf-8") as file:
-    reader = csv.DictReader(file)
-    rows = list(reader)
+def read_csv_to_dict(path_to_file):
+    with open(path_to_file, "r", encoding="utf-8") as file:
+        reader = csv.DictReader(file)
+        rows = list(reader)
+        return rows
 
-def validate_bag_reports_csv(valid: list, invalid: list):
+def validate_bag_reports_csv(rows: list):
+    valid = []
+    invalid = []
     for x in range(len(rows)):
         try:
             bag = Bag(**rows[x])
@@ -32,11 +35,14 @@ def write_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
+def write_reports(valid, invalid):
+    write_json("valid.json", [report.model_dump() for report in valid])
+    write_json("rejects.json", invalid)
 
-def write_reports(valid: list, invalid: list):
-    write_json("py-foundations/valid.json", [report.model_dump() for report in valid])
-    write_json("py-foundations/rejects.json", invalid)
 
+def main():
+    rows = read_csv_to_dict(CSV_PATH)
+    valid, invalid = validate_bag_reports_csv(rows)
+    write_reports(valid, invalid)
 
-# valid, invalid = validate_bag_reports_csv([], [])
-# write_reports(valid, invalid)
+main()
