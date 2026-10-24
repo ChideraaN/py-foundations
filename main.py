@@ -1,8 +1,8 @@
 import csv
 import json
 from pathlib import Path
-from bag import Bag
 
+from bag import Bag
 
 # Folder that contains this script, so paths work no matter where it is run from
 BASE_DIR = Path(__file__).parent

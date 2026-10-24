@@ -1,24 +1,28 @@
+from __future__ import annotations
+
 import math
-from typing import Literal, Optional
+from typing import Literal
+
 from pydantic import BaseModel, field_validator
+
 
 class Bag(BaseModel):
     report_id: str
     colour: str
     bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Optional[Literal["hard", "soft"]]
-    brand: Optional[str]
-    weight_kg: Optional[float]
+    shell: Literal["hard", "soft"] | None
+    brand: str | None
+    weight_kg: float | None
 
     @field_validator("report_id", "colour", "bag_form", mode="before")
     @classmethod
-    def is_empty_or_invalid(cls, value):
+    def is_empty(cls, value):
         # None and whitespace-only strings count as empty, not just ""
         if value is None or (isinstance(value, str) and not value.strip()):
             raise ValueError("Field is Empty")
         return value.strip() if isinstance(value, str) else value
 
-    @field_validator("shell", "brand", "weight_kg", mode="before")
+    @field_validator("shell", "brand", mode="before")
     @classmethod
     def blank_to_none(cls, value):
         # Optional fields: a blank cell means "no value", stored as None

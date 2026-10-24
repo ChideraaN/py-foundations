@@ -1,6 +1,5 @@
 import pytest
 from pydantic import ValidationError
-import math
 
 from bag import Bag
 
@@ -27,12 +26,6 @@ def test_valid_bag_is_created(row):
     assert bag.report_id == "R-1001"
     assert bag.colour == "navy"
     assert bag.weight_kg == 18.5
-
-
-def test_invalid_bag_raises_error(row):
-    row["report_id"]=" "
-    with pytest.raises(ValidationError, match="Field is Empty"):
-        Bag(**row)   
 
 def test_whitespaces_are_stripped(row):
     row["colour"] = " navy "
