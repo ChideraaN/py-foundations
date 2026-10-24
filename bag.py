@@ -1,7 +1,5 @@
-from __future__ import annotations
-
 import math
-from typing import Literal, Optional
+from typing import Literal
 
 from pydantic import BaseModel, field_validator
 
@@ -10,9 +8,9 @@ class Bag(BaseModel):
     report_id: str
     colour: str
     bag_form: Literal["suitcase", "backpack", "duffel"]
-    shell: Optional[Literal["hard", "soft"]]
-    brand: Optional[str]
-    weight_kg: Optional[float]
+    shell: Literal["hard", "soft"] | None
+    brand: str | None
+    weight_kg: float | None
 
     @field_validator("report_id", "colour", "bag_form", mode="before")
     @classmethod
