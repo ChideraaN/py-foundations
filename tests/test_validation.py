@@ -21,6 +21,10 @@ ROW_J = {"report_id": "T-010", "colour": "teal", "bag_form": "duffel", "shell": 
 ROW_K = {"report_id": "T-011", "colour": "gold", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "heavy"}
 ROW_L = {"report_id": "", "colour": "navy", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "10"}
 
+@pytest.fixture
+def test_rows():
+    return list([ROW_A, ROW_B, ROW_C, ROW_D, ROW_D, ROW_E, ROW_F, ROW_G, ROW_H, ROW_I, ROW_J, ROW_K, ROW_L])
+
 def test_read_csv_to_dict():
     rows = read_csv_to_dict(BASE_DIR / "tests/test_reports.csv")
     assert rows.__contains__(ROW_A)
@@ -31,9 +35,11 @@ def test_validate_bag_reports_csv():
     rows = list([ROW_A, ROW_B, ROW_H])
     valid, invalid = validate_bag_reports_csv(rows)
     print(valid)
-    assert valid.__contains__(Bag(**ROW_A))
-    assert valid.__contains__(Bag(**ROW_B))
-    assert invalid.__contains__(ROW_H)
+    assert Bag(**ROW_A) in valid
+    assert Bag(**ROW_B) in valid
+    assert ROW_H not in valid
+    assert len(valid) == 2
+    assert ROW_H in invalid
 
 def test_write_reports(tmp_path):
     valid_path = tmp_path / "valid.json"
