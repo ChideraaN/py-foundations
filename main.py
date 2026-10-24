@@ -33,10 +33,10 @@ def write_json(path, data):
         json.dump(data, f, indent=2)
 
 
-def write_reports(valid_path, rejects_path ,valid, invalid):
-    write_json(valid_path, [report.model_dump() for report in valid])
-    write_json(rejects_path, invalid)
+def write_reports(valid: list, invalid: list):
+    write_json("py-foundations/valid.json", [report.model_dump() for report in valid])
+    write_json("py-foundations/rejects.json", invalid)
 
 
-valid, invalid = validate_bag_reports_csv([], [])
-write_reports(VALID_PATH, REJECTS_PATH, valid, invalid)
+# valid, invalid = validate_bag_reports_csv([], [])
+# write_reports(valid, invalid)
