@@ -12,32 +12,31 @@ CSV_PATH = BASE_DIR / "bag_reports.csv"
 VALID_PATH = BASE_DIR / "valid.json"
 REJECTS_PATH = BASE_DIR / "rejects.json"
 
-valid_bag_reports = []
-invalid_bag_reports = []
-
 # open() accepts a Path object directly
 with open(CSV_PATH, "r", encoding="utf-8") as file:
     reader = csv.DictReader(file)
     rows = list(reader)
 
-def validate_bag_reports_csv():
+def validate_bag_reports_csv(valid: list, invalid: list):
     for x in range(len(rows)):
         try:
             bag = Bag(**rows[x])
-            valid_bag_reports.append(bag)
+            valid.append(bag)
         except ValueError as e:
             rows[x]["failure_reason"] = str(e)
-            invalid_bag_reports.append(rows[x])
+            invalid.append(rows[x])
+
+    return valid, invalid
 
 def write_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 
-def write_reports(valid_path, rejects_path ,valid, rejects):
+def write_reports(valid_path, rejects_path ,valid, invalid):
     write_json(valid_path, [report.model_dump() for report in valid])
-    write_json(rejects_path, rejects)
+    write_json(rejects_path, invalid)
 
 
-validate_bag_reports_csv()
-write_reports(VALID_PATH, REJECTS_PATH, valid_bag_reports, invalid_bag_reports)
+valid, invalid = validate_bag_reports_csv([], [])
+write_reports(VALID_PATH, REJECTS_PATH, valid, invalid)
