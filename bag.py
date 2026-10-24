@@ -32,7 +32,10 @@ class Bag(BaseModel):
         if str(value).strip() == "":
             return None
 
-        weight = float(value)
+        try:
+            weight = float(value)
+        except (TypeError, ValueError):
+            raise ValueError("Weight is not a number")
 
         if math.isnan(weight):
             raise ValueError("Weight is not a number")
