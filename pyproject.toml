@@ -1,7 +1,7 @@
 [project]
 name = "py-foundations"
 version = "0.1.0"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2.13.5",
     "pytest>=8.4.2",
