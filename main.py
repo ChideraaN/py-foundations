@@ -1,6 +1,7 @@
 import csv
 import json
 from pathlib import Path
+import sys
 from bag import Bag
 
 # Folder that contains this script, so paths work no matter where it is run from
@@ -35,14 +36,15 @@ def write_json(path, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
-def write_reports(valid, invalid):
-    write_json("valid.json", [report.model_dump() for report in valid])
-    write_json("rejects.json", invalid)
+def write_reports(valid_path, rejects_path, valid, invalid):
+    write_json(valid_path, [report.model_dump() for report in valid])
+    write_json(rejects_path, invalid)
 
 
 def main():
     rows = read_csv_to_dict(CSV_PATH)
     valid, invalid = validate_bag_reports_csv(rows)
-    write_reports(valid, invalid)
+    write_reports(VALID_PATH, REJECTS_PATH, valid, invalid)
 
-main()
+if __name__ == "__main__":
+    sys.exit(main()) 
