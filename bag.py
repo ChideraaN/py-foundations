@@ -12,13 +12,13 @@ class Bag(BaseModel):
 
     @field_validator("report_id", "colour", "bag_form", mode="before")
     @classmethod
-    def is_empty(cls, value):
+    def is_empty_or_invalid(cls, value):
         # None and whitespace-only strings count as empty, not just ""
         if value is None or (isinstance(value, str) and not value.strip()):
             raise ValueError("Field is Empty")
         return value.strip() if isinstance(value, str) else value
 
-    @field_validator("shell", "brand", mode="before")
+    @field_validator("shell", "brand", "weight_kg", mode="before")
     @classmethod
     def blank_to_none(cls, value):
         # Optional fields: a blank cell means "no value", stored as None
