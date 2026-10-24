@@ -32,6 +32,11 @@ def test_whitespaces_are_stripped(row):
     bag = Bag(**row)
     assert bag.colour == "navy"
 
+def test_invalid_shell(row):
+    row["shell"] = "lukewarm"
+    with pytest.raises(ValidationError):
+        Bag(**row)
+
 @pytest.mark.parametrize("field", ["shell", "brand", "weight_kg"])
 def test_blanks_are_converted_to_none(row, field):
     row[field] = "  "
