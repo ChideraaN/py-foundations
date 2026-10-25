@@ -1,10 +1,9 @@
-from main import BASE_DIR, main
-from main import validate_bag_reports_csv
-from main import read_csv_to_dict
-from main import write_reports
-from bag import Bag
 import json
+
 import pytest
+
+from bag import Bag
+from main import BASE_DIR, read_csv_to_dict, validate_bag_reports_csv, write_reports
 
 # valid
 ROW_A = {"report_id": "T-001", "colour": "red", "bag_form": "suitcase", "shell": "hard", "brand": "Acme", "weight_kg": "20.5"}
@@ -23,7 +22,7 @@ ROW_L = {"report_id": "", "colour": "navy", "bag_form": "duffel", "shell": "", "
 
 @pytest.fixture
 def test_rows():
-    return list([ROW_A, ROW_B, ROW_C, ROW_D, ROW_D, ROW_E, ROW_F, ROW_G, ROW_H, ROW_I, ROW_J, ROW_K, ROW_L])
+    return [ROW_A, ROW_B, ROW_C, ROW_D, ROW_D, ROW_E, ROW_F, ROW_G, ROW_H, ROW_I, ROW_J, ROW_K, ROW_L]
 
 def test_read_csv_to_dict():
     rows = read_csv_to_dict(BASE_DIR / "tests/test_reports.csv")
@@ -32,7 +31,7 @@ def test_read_csv_to_dict():
 
 
 def test_validate_bag_reports_csv():
-    rows = list([ROW_A, ROW_B, ROW_H])
+    rows = [ROW_A, ROW_B, ROW_H]
     valid, invalid = validate_bag_reports_csv(rows)
     print(valid)
     assert Bag(**ROW_A) in valid
