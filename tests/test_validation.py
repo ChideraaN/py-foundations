@@ -5,6 +5,7 @@ import pytest
 from bag import Bag
 from main import BASE_DIR, read_csv_to_dict, validate_bag_reports_csv, write_reports
 
+
 @pytest.fixture
 def rows():
     """Sample CSV rows by letter. Rebuilt for every test, so mutations don't leak between tests."""
@@ -25,8 +26,10 @@ def rows():
         "L": {"report_id": "", "colour": "navy", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "10"},
     }
 
+
 def test_read_csv_to_dict(rows):
     csv_rows = read_csv_to_dict(BASE_DIR / "tests/test_reports.csv")
+    assert len(csv_rows) == 2
     assert rows["A"] in csv_rows
     assert rows["B"] in csv_rows
 
@@ -34,41 +37,66 @@ def test_read_csv_to_dict(rows):
 def test_validate_bag_reports_csv(rows):
     inputs = [rows["A"], rows["B"], rows["H"]]
     valid, invalid = validate_bag_reports_csv(inputs)
-    assert Bag(**rows["A"]) in valid
-    assert Bag(**rows["B"]) in valid
-    assert rows["H"] not in valid
-    assert len(valid) == 2
-    assert rows["H"] in invalid
+    assert valid == [Bag(**rows["A"]), Bag(**rows["B"])]
+    assert len(invalid) == 1
+    assert invalid[0]["report_id"] == "T-008"
+    assert "shell" in invalid[0]["failure_reason"]
+
 
 def test_write_reports(tmp_path, rows):
     valid_path = tmp_path / "valid.json"
     rejects_path = tmp_path / "rejects.json"
+    good = [Bag(**rows["A"]), Bag(**rows["B"])]
     bad = [rows["F"], rows["G"], rows["H"]]
-    write_reports(valid_path, rejects_path, [Bag(**rows["A"]), Bag(**rows["A"]), Bag(**rows["A"])], bad)
+    write_reports(valid_path, rejects_path, good, bad)
 
-    assert len(json.loads(valid_path.read_text())) == 3
+    assert json.loads(valid_path.read_text()) == [bag.model_dump() for bag in good]
     assert json.loads(rejects_path.read_text()) == bad
 
-@pytest.mark.parametrize("key", ["F", "G", "H", "I", "J", "K", "L"])
-def test_invalid_rows(rows, key):
+
+@pytest.mark.parametrize("key, expected", [
+    ("F", "Field is Empty"),
+    ("G", "bag_form"),
+    ("H", "shell"),
+    ("I", "negative or too large"),
+    ("J", "negative or too large"),
+    ("K", "not a number"),
+    ("L", "Field is Empty"),
+])
+def test_invalid_rows(rows, key, expected):
     valid, invalid = validate_bag_reports_csv([rows[key]])
     assert len(valid) == 0
     assert len(invalid) == 1
+    assert expected in invalid[0]["failure_reason"]
 
-@pytest.mark.parametrize("key", ["A", "B", "C", "D", "E"])
-def test_valid_rows(rows, key):
+
+@pytest.mark.parametrize("key, expected", [
+    ("A", {"shell": "hard", "brand": "Acme", "weight_kg": 20.5}),
+    ("B", {"shell": None, "brand": None, "weight_kg": 7.0}),
+    ("C", {"shell": "soft", "brand": "Zed", "weight_kg": None}),
+    ("D", {"shell": "hard", "brand": "Acme", "weight_kg": 0.0}),
+    ("E", {"shell": "soft", "brand": "Acme", "weight_kg": 32.0}),
+])
+def test_valid_rows(rows, key, expected):
     valid, invalid = validate_bag_reports_csv([rows[key]])
-    assert len(valid) == 1
     assert len(invalid) == 0
+    assert len(valid) == 1
+    bag = valid[0]
+    assert bag.report_id == rows[key]["report_id"]
+    for field, value in expected.items():
+        assert getattr(bag, field) == value
 
-def test_milstone_numbers(tmp_path):
-    rows = read_csv_to_dict(BASE_DIR / "bag_reports.csv")
-    valid, invalid = validate_bag_reports_csv(rows)
+
+def test_milestone_numbers(tmp_path):
+    csv_rows = read_csv_to_dict(BASE_DIR / "bag_reports.csv")
+    valid, invalid = validate_bag_reports_csv(csv_rows)
     valid_path = tmp_path / "valid.json"
     rejects_path = tmp_path / "rejects.json"
     write_reports(valid_path, rejects_path, valid, invalid)
 
-    assert len(json.loads(valid_path.read_text())) == 24
-    assert len(json.loads(rejects_path.read_text())) == 6
-    
+    valid_ids = {r["report_id"] for r in json.loads(valid_path.read_text())}
+    rejected_ids = {r["report_id"] for r in json.loads(rejects_path.read_text())}
 
+    assert len(valid_ids) == 24
+    assert rejected_ids == {"R-1025", "R-1026", "R-1027", "R-1028", "R-1029", ""}
+    assert valid_ids.isdisjoint(rejected_ids)
