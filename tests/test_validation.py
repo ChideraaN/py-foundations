@@ -11,19 +11,103 @@ def rows():
     """Sample CSV rows by letter. Rebuilt for every test, so mutations don't leak between tests."""
     return {
         # valid
-        "A": {"report_id": "T-001", "colour": "red", "bag_form": "suitcase", "shell": "hard", "brand": "Acme", "weight_kg": "20.5"},
-        "B": {"report_id": "T-002", "colour": "blue", "bag_form": "backpack", "shell": "", "brand": "", "weight_kg": "7"},
-        "C": {"report_id": "T-003", "colour": "green", "bag_form": "duffel", "shell": "soft", "brand": "Zed", "weight_kg": ""},
-        "D": {"report_id": "T-004", "colour": "black", "bag_form": "suitcase", "shell": "hard", "brand": "Acme", "weight_kg": "0"},
-        "E": {"report_id": "T-005", "colour": "white", "bag_form": "suitcase", "shell": "soft", "brand": "Acme", "weight_kg": "32"},
+        "A": {
+            "report_id": "T-001",
+            "colour": "red",
+            "bag_form": "suitcase",
+            "shell": "hard",
+            "brand": "Acme",
+            "weight_kg": "20.5",
+        },
+        "B": {
+            "report_id": "T-002",
+            "colour": "blue",
+            "bag_form": "backpack",
+            "shell": "",
+            "brand": "",
+            "weight_kg": "7",
+        },
+        "C": {
+            "report_id": "T-003",
+            "colour": "green",
+            "bag_form": "duffel",
+            "shell": "soft",
+            "brand": "Zed",
+            "weight_kg": "",
+        },
+        "D": {
+            "report_id": "T-004",
+            "colour": "black",
+            "bag_form": "suitcase",
+            "shell": "hard",
+            "brand": "Acme",
+            "weight_kg": "0",
+        },
+        "E": {
+            "report_id": "T-005",
+            "colour": "white",
+            "bag_form": "suitcase",
+            "shell": "soft",
+            "brand": "Acme",
+            "weight_kg": "32",
+        },
         # invalid
-        "F": {"report_id": "T-006", "colour": "", "bag_form": "suitcase", "shell": "hard", "brand": "Acme", "weight_kg": "10"},
-        "G": {"report_id": "T-007", "colour": "pink", "bag_form": "banana", "shell": "", "brand": "Acme", "weight_kg": "10"},
-        "H": {"report_id": "T-008", "colour": "grey", "bag_form": "suitcase", "shell": "lukewarm", "brand": "Acme", "weight_kg": "10"},
-        "I": {"report_id": "T-009", "colour": "tan", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "32.5"},
-        "J": {"report_id": "T-010", "colour": "teal", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "-1"},
-        "K": {"report_id": "T-011", "colour": "gold", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "heavy"},
-        "L": {"report_id": "", "colour": "navy", "bag_form": "duffel", "shell": "", "brand": "Acme", "weight_kg": "10"},
+        "F": {
+            "report_id": "T-006",
+            "colour": "",
+            "bag_form": "suitcase",
+            "shell": "hard",
+            "brand": "Acme",
+            "weight_kg": "10",
+        },
+        "G": {
+            "report_id": "T-007",
+            "colour": "pink",
+            "bag_form": "banana",
+            "shell": "",
+            "brand": "Acme",
+            "weight_kg": "10",
+        },
+        "H": {
+            "report_id": "T-008",
+            "colour": "grey",
+            "bag_form": "suitcase",
+            "shell": "lukewarm",
+            "brand": "Acme",
+            "weight_kg": "10",
+        },
+        "I": {
+            "report_id": "T-009",
+            "colour": "tan",
+            "bag_form": "duffel",
+            "shell": "",
+            "brand": "Acme",
+            "weight_kg": "32.5",
+        },
+        "J": {
+            "report_id": "T-010",
+            "colour": "teal",
+            "bag_form": "duffel",
+            "shell": "",
+            "brand": "Acme",
+            "weight_kg": "-1",
+        },
+        "K": {
+            "report_id": "T-011",
+            "colour": "gold",
+            "bag_form": "duffel",
+            "shell": "",
+            "brand": "Acme",
+            "weight_kg": "heavy",
+        },
+        "L": {
+            "report_id": "",
+            "colour": "navy",
+            "bag_form": "duffel",
+            "shell": "",
+            "brand": "Acme",
+            "weight_kg": "10",
+        },
     }
 
 
@@ -54,15 +138,18 @@ def test_write_reports(tmp_path, rows):
     assert json.loads(rejects_path.read_text()) == bad
 
 
-@pytest.mark.parametrize("key, expected", [
-    ("F", "Field is Empty"),
-    ("G", "bag_form"),
-    ("H", "shell"),
-    ("I", "negative or too large"),
-    ("J", "negative or too large"),
-    ("K", "not a number"),
-    ("L", "Field is Empty"),
-])
+@pytest.mark.parametrize(
+    "key, expected",
+    [
+        ("F", "Field is Empty"),
+        ("G", "bag_form"),
+        ("H", "shell"),
+        ("I", "negative or too large"),
+        ("J", "negative or too large"),
+        ("K", "not a number"),
+        ("L", "Field is Empty"),
+    ],
+)
 def test_invalid_rows(rows, key, expected):
     valid, invalid = validate_bag_reports_csv([rows[key]])
     assert len(valid) == 0
@@ -70,13 +157,16 @@ def test_invalid_rows(rows, key, expected):
     assert expected in invalid[0]["failure_reason"]
 
 
-@pytest.mark.parametrize("key, expected", [
-    ("A", {"shell": "hard", "brand": "Acme", "weight_kg": 20.5}),
-    ("B", {"shell": None, "brand": None, "weight_kg": 7.0}),
-    ("C", {"shell": "soft", "brand": "Zed", "weight_kg": None}),
-    ("D", {"shell": "hard", "brand": "Acme", "weight_kg": 0.0}),
-    ("E", {"shell": "soft", "brand": "Acme", "weight_kg": 32.0}),
-])
+@pytest.mark.parametrize(
+    "key, expected",
+    [
+        ("A", {"shell": "hard", "brand": "Acme", "weight_kg": 20.5}),
+        ("B", {"shell": None, "brand": None, "weight_kg": 7.0}),
+        ("C", {"shell": "soft", "brand": "Zed", "weight_kg": None}),
+        ("D", {"shell": "hard", "brand": "Acme", "weight_kg": 0.0}),
+        ("E", {"shell": "soft", "brand": "Acme", "weight_kg": 32.0}),
+    ],
+)
 def test_valid_rows(rows, key, expected):
     valid, invalid = validate_bag_reports_csv([rows[key]])
     assert len(invalid) == 0

@@ -42,6 +42,6 @@ class Bag(BaseModel):
         if math.isnan(weight):
             raise ValueError("Weight is not a number")
 
-        if(weight < 0 or weight > 32):
+        if weight < 0 or weight > 32:
             raise ValueError("Weight is negative or too large")
         return weight
